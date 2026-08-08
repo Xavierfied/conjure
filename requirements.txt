@@ -1,0 +1,20 @@
+# --- Phase 1: Gesture Controller (MediaPipe & OpenCV) ---
+opencv-python>=4.8.0
+mediapipe>=0.10.9
+numpy>=1.24.0
+
+# --- Phase 2: Face Segmentation (SegFormer) ---
+transformers>=4.39.0
+pillow>=10.0.0
+
+# --- Phase 3: Generative AI (FLUX & Diffusers) ---
+diffusers>=0.29.0
+accelerate>=0.28.0
+optimum-quanto>=0.1.0
+sentencepiece>=0.1.99
+protobuf>=4.25.0
+huggingface-hub>=0.22.0
+
+# --- PyTorch Core (Required for Phase 2 & 3) ---
+# torch>=2.0.0
+# torchvision>=0.15.0
