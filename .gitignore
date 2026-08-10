@@ -1,4 +1,5 @@
-.venv/*
+.venv
 .env
 scaffold/
-models/
+assets/
+__pycache__/
